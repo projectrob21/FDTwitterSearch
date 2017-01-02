@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TwitterSearch", "TwitterSearch\TwitterSearch.shproj", "{C44D6D92-5268-48D0-A580-660A16C91C45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearch.iOS", "iOS\TwitterSearch.iOS.csproj", "{57BB87A0-63A6-4565-BF13-6B7415C73964}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearchiOS", "iOS\TwitterSearchiOS.csproj", "{57BB87A0-63A6-4565-BF13-6B7415C73964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

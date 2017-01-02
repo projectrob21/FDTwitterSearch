@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace TwitterSearch.iOS
+namespace TwitterSearchiOS
 {
 	public class Application
 	{

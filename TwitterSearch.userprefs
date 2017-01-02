@@ -1,25 +1,30 @@
 ﻿<Properties StartupConfiguration="{57BB87A0-63A6-4565-BF13-6B7415C73964}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TwitterSearchiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/FeedViewController.cs">
     <Files>
-      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="12" Column="2" />
+      <File FileName="iOS/FeedViewController.designer.cs" Line="8" Column="24" />
+      <File FileName="iOS/FeedViewController.cs" Line="5" Column="24" />
+      <File FileName="iOS/Main.cs" Line="8" Column="24" />
+      <File FileName="iOS/FeedTableViewSrouce.cs" Line="32" Column="1" />
+      <File FileName="iOS/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TwitterSearch" expanded="True">
             <Node name="TwitterSearch" expanded="True" />
-            <Node name="TwitterSearch.iOS" expanded="True">
-              <Node name="LaunchScreen.storyboard" selected="True" />
+            <Node name="TwitterSearchiOS" expanded="True">
+              <Node name="FeedViewController.cs" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TwitterSearch.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CF572232-141A-48F4-9E33-75AD6777A62E" />
 </Properties>

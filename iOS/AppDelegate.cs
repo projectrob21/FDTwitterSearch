@@ -1,25 +1,29 @@
-﻿using Foundation;
-using UIKit;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using Foundation;
+using UIKit
 
-namespace TwitterSearch.iOS
+
+
+namespace TwitterSearchiOS
 {
-	// The UIApplicationDelegate for the application. This class is responsible for launching the
-	// User Interface of the application, as well as listening (and optionally responding) to application events from iOS.
+
 	[Register("AppDelegate")]
 	public class AppDelegate : UIApplicationDelegate
 	{
-		// class-level declarations
-
-		public override UIWindow Window
-		{
-			get;
-			set;
-		}
+		UIWindow window;
+		FeedViewController viewController;
 
 		public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
 		{
-			// Override point for customization after application launch.
-			// If not required for your application you can safely delete this method
+			window = new UIWindow(UIScreen.MainScreen.Bounds);
+
+			viewController = new FeedViewController();
+			window.RootViewController = viewController;
+
+			window.MakeKeyAndVisible();
 
 			return true;
 		}

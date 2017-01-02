@@ -5,20 +5,20 @@
 //		
 using Foundation;
 
-namespace TwitterSearch.iOS
+namespace TwitterSearchiOS
 {
 	[Register("ViewController")]
-	partial class ViewController
+	partial class FeedViewController
 	{
 		[Outlet]
-		UIKit.UIButton Button { get; set; }
+		UIKit.UITableView twitterFeedTableView { get; set; }
 
 		void ReleaseDesignerOutlets()
 		{
-			if (Button != null)
+			if (twitterFeedTableView != null)
 			{
-				Button.Dispose();
-				Button = null;
+				twitterFeedTableView.Dispose();
+				twitterFeedTableView = null;
 			}
 		}
 	}

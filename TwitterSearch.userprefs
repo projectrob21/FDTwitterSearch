@@ -1,30 +1,19 @@
-﻿<Properties StartupConfiguration="{57BB87A0-63A6-4565-BF13-6B7415C73964}|Default">
-  <MonoDevelop.Ide.ItemProperties.TwitterSearchiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/FeedViewController.cs">
+﻿<Properties StartupConfiguration="{52EE7FF4-2F46-465B-9490-742C7A063B76}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewController.designer.cs">
     <Files>
-      <File FileName="iOS/AppDelegate.cs" Line="12" Column="2" />
-      <File FileName="iOS/FeedViewController.designer.cs" Line="8" Column="24" />
-      <File FileName="iOS/FeedViewController.cs" Line="5" Column="24" />
-      <File FileName="iOS/Main.cs" Line="8" Column="24" />
-      <File FileName="iOS/FeedTableViewSrouce.cs" Line="32" Column="1" />
-      <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/ViewController.cs" Line="15" Column="4" />
+      <File FileName="iOS/TwitterFeedTableSource.cs" Line="35" Column="1" />
+      <File FileName="iOS/ViewController.designer.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="TwitterSearch" expanded="True">
-            <Node name="TwitterSearch" expanded="True" />
-            <Node name="TwitterSearchiOS" expanded="True">
-              <Node name="FeedViewController.cs" expanded="True" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/robertdeans/Desktop/TwitterSearch/iOS/ViewController.cs" line="15" column="1" />
+      <Breakpoint file="/Users/robertdeans/Desktop/TwitterSearch/iOS/ViewController.cs" line="17" column="1" />
+      <Breakpoint file="/Users/robertdeans/Desktop/TwitterSearch/iOS/ViewController.cs" line="18" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TwitterSearch.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7C526ABF-624E-4315-9977-56E763310322" />
 </Properties>

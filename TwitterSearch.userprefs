@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{52EE7FF4-2F46-465B-9490-742C7A063B76}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TwitterSearchLibrary.Shared/DataStore.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="TwitterSearch.Shared/:Users:robertdeans:Documents:developer:TwitterSearch:iOS:DataStore.cs" Line="14" Column="30" />
-      <File FileName="iOS/ViewController.cs" Line="11" Column="18" />
-      <File FileName="iOS/MyPage.cs" Line="11" Column="1" />
+      <File FileName="TwitterSearch.Shared/:Users:robertdeans:Documents:developer:TwitterSearch:iOS:DataStore.cs" Line="1" Column="1" />
+      <File FileName="iOS/ViewController.cs" Line="16" Column="33" />
+      <File FileName="iOS/MyPage.cs" Line="1" Column="1" />
       <File FileName="iOS/packages.config" Line="1" Column="1" />
       <File FileName="iOS/TwitterFeedTableSource.cs" Line="1" Column="1" />
-      <File FileName="TwitterSearchLibrary.Shared/MyClass.cs" Line="1" Column="1" />
-      <File FileName="TwitterSearchLibrary.Shared/DataStore.cs" Line="15" Column="45" />
-      <File FileName="TwitterSearchLibrary.Shared/Tweet.cs" Line="1" Column="1" />
-      <File FileName="TwitterSearchLibrary.Shared/packages.config" Line="1" Column="1" />
       <File FileName="iOS/ViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="TwitterSearchLibrary.Shared/DataStore.cs" Line="15" Column="4" />
+      <File FileName="iOS/Main.cs" Line="22" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="21" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,11 +18,10 @@
             <Node name="TwitterSearch.iOS" expanded="True">
               <Node name="References" expanded="True" />
               <Node name="Packages" expanded="True" />
-              <Node name="ViewController.cs" expanded="True" />
+              <Node name="AppDelegate.cs" selected="True" />
             </Node>
             <Node name="TwitterSearch.Shared" expanded="True">
               <Node name="References" expanded="True" />
-              <Node name="DataStore.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -1,14 +1,15 @@
 ﻿using Foundation;
 using UIKit;
+using TwitterSearch.Shared;
 
 namespace TwitterSearch.iOS
 {
-	// The UIApplicationDelegate for the application. This class is responsible for launching the
-	// User Interface of the application, as well as listening (and optionally responding) to application events from iOS.
+
 	[Register("AppDelegate")]
 	public class AppDelegate : UIApplicationDelegate
 	{
-		// class-level declarations
+		UIWindow window;
+		TwitterSearchTableVC twitterVC;
 
 		public override UIWindow Window
 		{
@@ -18,8 +19,12 @@ namespace TwitterSearch.iOS
 
 		public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
 		{
-			// Override point for customization after application launch.
-			// If not required for your application you can safely delete this method
+
+			window = new UIWindow(UIScreen.MainScreen.Bounds);
+			twitterVC = new TwitterSearchTableVC();
+			window.RootViewController = twitterVC;
+
+			window.MakeKeyAndVisible();
 
 			return true;
 		}

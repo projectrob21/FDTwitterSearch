@@ -1,0 +1,12 @@
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/TwitterSearchLibrary.Shared.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/TwitterSearchLibrary.Shared.dll.mdb
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/TwitterSearch.iOS.exe.mdb
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/TwitterSearch.iOS.exe
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/obj/iPhoneSimulator/Debug/TwitterSearch.iOS.exe
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/obj/iPhoneSimulator/Debug/TwitterSearch.iOS.exe.mdb

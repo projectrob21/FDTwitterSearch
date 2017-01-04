@@ -1,0 +1,6 @@
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/TwitterSearchLibrary.Shared.dll.mdb
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/TwitterSearchLibrary.Shared.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/obj/Debug/TwitterSearchLibrary.Shared.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/obj/Debug/TwitterSearchLibrary.Shared.dll.mdb
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/Newtonsoft.Json.dll

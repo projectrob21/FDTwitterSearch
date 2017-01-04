@@ -15,8 +15,8 @@ namespace TwitterSearch.iOS
 
 		private TwitterFeedTableSource source;
 
-		Tweet potus1 = new Tweet("Potus", "I am going to miss this job", "Jan 1st 2017");
-		Tweet potus2 = new Tweet("Potus", "Vacation will be nice though!", "Jan 2nd 2017");
+		//Tweet potus1 = new Tweet("Potus", "I am going to miss this job", "Jan 1st 2017");
+		//Tweet potus2 = new Tweet("Potus", "Vacation will be nice though!", "Jan 2nd 2017");
 
 		public override void ViewDidLoad()
 		{
@@ -24,8 +24,13 @@ namespace TwitterSearch.iOS
 
 
 			source = new TwitterFeedTableSource(Enumerable.Empty<Tweet>());
-			TwitterTableView = new UITableView(Rectangle.Empty) { Source = source};
-			RefreshControl = new UIRefreshControl();
+			Console.WriteLine("is this even working??");
+			Console.WriteLine("AAAAHHH {0}", source);
+
+			//TwitterTableView = new UITableView(View.Bounds);
+
+				
+			//RefreshControl = new UIRefreshControl();
 			// built in refresh when you drag down screen
 
 
@@ -40,11 +45,11 @@ namespace TwitterSearch.iOS
 			// Release any cached data, images, etc that aren't in use.		
 		}
 
-		private async void ReflectControlOnValueChanged(object sender, EventArgs eventArgs)
-		{
-			await LoadEntriesAsync();
-			RefreshControl.EndRefreshing();
-		}
+		//private async void ReflectControlOnValueChanged(object sender, EventArgs eventArgs)
+		//{
+		//	await LoadEntriesAsync();
+		//	RefreshControl.EndRefreshing();
+		//}
 
 		//private async override ViewDidAppear(bool animated)
 		//{
@@ -52,12 +57,12 @@ namespace TwitterSearch.iOS
 		//	await LoadEntriesAsync();
 		//}
 
-		private async Task LoadEntriesAsync()
-		{
-			var data = await repository.TopEntriesAsync();
-			source.Entries = new List<Tweet>(data);
-			TableView.ReloadData();
-		}
+		//private async Task LoadEntriesAsync()
+		//{
+		//	var data = await repository.TopEntriesAsync();
+		//	source.Entries = new List<Tweet>(data);
+		//	TableView.ReloadData();
+		//}
 
 	}
 }

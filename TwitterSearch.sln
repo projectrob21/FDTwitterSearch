@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TwitterSearch", "TwitterSearch\TwitterSearch.shproj", "{5EA3C072-C716-4046-9465-F1005FB5E147}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearch.Droid", "Droid\TwitterSearch.Droid.csproj", "{BDD7C66F-1237-4571-A1E2-5F5834FA987D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearch.iOS", "iOS\TwitterSearch.iOS.csproj", "{52EE7FF4-2F46-465B-9490-742C7A063B76}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TwitterSearch.Shared", "TwitterSearch.Shared\TwitterSearch.Shared.shproj", "{149BB8A4-4196-47C6-8107-BF24502BAB64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

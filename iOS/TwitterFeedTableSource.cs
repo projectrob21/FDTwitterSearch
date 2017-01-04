@@ -1,5 +1,6 @@
 ﻿using System;
 using UIKit;
+using TwitterSearch.Shared;
 
 namespace TwitterSearch.iOS
 {
@@ -22,8 +23,9 @@ namespace TwitterSearch.iOS
 		{
 			UITableViewCell cell = tableView.DequeueReusableCell(CellIdentifier);
 			Tweet tweet = TweetArray[indexPath.Row];
-			string content = tweet.Content;
-			string user = tweet.User;
+			string content = tweet.content;
+			string user = tweet.user;
+			string date = tweet.date;
 
 			if (cell == null)
 			{ cell = new UITableViewCell(UITableViewCellStyle.Subtitle, CellIdentifier); }

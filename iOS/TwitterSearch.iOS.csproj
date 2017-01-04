@@ -117,6 +117,5 @@
     </Compile>
     <Compile Include="TwitterFeedTableSource.cs" />
   </ItemGroup>
-  <Import Project="..\TwitterSearch.Shared\TwitterSearch.Shared.projitems" Label="Shared" Condition="Exists('..\TwitterSearch.Shared\TwitterSearch.Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

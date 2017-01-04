@@ -8,8 +8,4 @@
   <PropertyGroup Label="Configuration">
     <Import_RootNamespace>TwitterSearch.Shared</Import_RootNamespace>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)DataStore.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Tweet.cs" />
-  </ItemGroup>
 </Project>

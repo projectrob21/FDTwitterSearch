@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TwitterSearch.iOS
+namespace TwitterSearch.Shared
 {
 	public class Tweet
 	{

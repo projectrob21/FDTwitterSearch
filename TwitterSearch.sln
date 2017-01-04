@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearch.Droid", "Droi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearch.iOS", "iOS\TwitterSearch.iOS.csproj", "{52EE7FF4-2F46-465B-9490-742C7A063B76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearchLibrary.Shared", "TwitterSearchLibrary.Shared\TwitterSearchLibrary.Shared.csproj", "{304449A5-DAB9-4013-BC6A-A9424B7E0DA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearch.Shared", "TwitterSearchLibrary.Shared\TwitterSearch.Shared.csproj", "{304449A5-DAB9-4013-BC6A-A9424B7E0DA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

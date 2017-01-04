@@ -14,14 +14,14 @@ namespace TwitterSearch.iOS
     partial class ViewController
     {
         [Outlet]
-		UIKit.UITableView table { get; set; }
+		UIKit.UITableView TwitterTableView { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-			if (table != null)
+			if (TwitterTableView != null)
 			{
-				table.Dispose();
-				table = null;
+				TwitterTableView.Dispose();
+				TwitterTableView = null;
 			}
         }
     }

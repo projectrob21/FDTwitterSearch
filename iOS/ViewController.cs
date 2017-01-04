@@ -5,6 +5,10 @@ namespace TwitterSearch.iOS
 {
 	public partial class ViewController : UIViewController
 	{
+
+		Tweet potus1 = new Tweet("Potus", "I am going to miss this job");
+		Tweet potus2 = new Tweet("Potus", "Vacation will be nice though!");
+
 		public ViewController(IntPtr handle) : base(handle)
 		{
 		}
@@ -12,10 +16,10 @@ namespace TwitterSearch.iOS
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
-			table = new UITableView(View.Bounds);
-			string[] tableItems = new string[] { "Vegetables", "Fruits", "Flower Buds", "Legumes", "Bulbs", "Tubers" };
-			table.Source = new TwitterFeedTableSource(tableItems);
-			Add(table);
+			TwitterTableView = new UITableView(View.Bounds);
+			Tweet[] tweets = new Tweet[] { potus1, potus2 };
+			TwitterTableView.Source = new TwitterFeedTableSource(tweets);
+			Add(TwitterTableView);
 		}
 
 		public override void DidReceiveMemoryWarning()
@@ -23,5 +27,6 @@ namespace TwitterSearch.iOS
 			base.DidReceiveMemoryWarning();
 			// Release any cached data, images, etc that aren't in use.		
 		}
+
 	}
 }

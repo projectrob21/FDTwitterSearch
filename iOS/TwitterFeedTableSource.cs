@@ -5,31 +5,35 @@ namespace TwitterSearch.iOS
 {
 	public class TwitterFeedTableSource : UITableViewSource
 	{
-		string[] TableItems;
+		Tweet[] TweetArray;
 		string CellIdentifier = "TableCell";
 
-		public TwitterFeedTableSource (string[] items)
+		public TwitterFeedTableSource (Tweet[] tweets)
 		{
-			TableItems = items;
+			TweetArray = tweets;
 		}
 
 		public override nint RowsInSection(UITableView tableview, nint section)
 		{
-			return TableItems.Length;
+			return TweetArray.Length;
 		}
 
 		public override UITableViewCell GetCell(UITableView tableView, Foundation.NSIndexPath indexPath)
 		{
 			UITableViewCell cell = tableView.DequeueReusableCell(CellIdentifier);
-			string item = TableItems[indexPath.Row];
+			Tweet tweet = TweetArray[indexPath.Row];
+			string content = tweet.Content;
+			string user = tweet.User;
 
-			//---- if there are no cells to reuse, create a new one
 			if (cell == null)
-			{ cell = new UITableViewCell(UITableViewCellStyle.Default, CellIdentifier); }
+			{ cell = new UITableViewCell(UITableViewCellStyle.Subtitle, CellIdentifier); }
 
-			cell.TextLabel.Text = item;
+			//cell.TextLabel.ToggleBoldface;
+			cell.TextLabel.Text = user;
+			cell.DetailTextLabel.Text = content;
 
-			return cell;		}
+			return cell;		
+		}
 	}
 }
 

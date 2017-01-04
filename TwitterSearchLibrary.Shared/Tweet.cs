@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TwitterSearch.Shared
 {
@@ -18,7 +19,7 @@ namespace TwitterSearch.Shared
 			this.date = date;
 		}
 
-
+		public IEnumerable<Tweet> Items { get; set; }
 
 	}
 }

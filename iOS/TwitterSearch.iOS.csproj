@@ -117,5 +117,11 @@
     </Compile>
     <Compile Include="TwitterFeedTableSource.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TwitterSearchLibrary.Shared\TwitterSearch.Shared.csproj">
+      <Project>{304449A5-DAB9-4013-BC6A-A9424B7E0DA5}</Project>
+      <Name>TwitterSearch.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

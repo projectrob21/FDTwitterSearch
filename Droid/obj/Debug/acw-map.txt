@@ -1,4 +1,0 @@
-TwitterSearch.Droid.MainActivity, TwitterSearch.Droid;md5fd33b897c162b272f08df162c349b88d.MainActivity
-TwitterSearch.Droid.MainActivity, TwitterSearch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fd33b897c162b272f08df162c349b88d.MainActivity
-TwitterSearch.Droid.MainActivity;md5fd33b897c162b272f08df162c349b88d.MainActivity
-twittersearch.droid.MainActivity;md5fd33b897c162b272f08df162c349b88d.MainActivity

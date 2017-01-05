@@ -111,7 +111,8 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
+    <Compile Include="TwitterSearchTableVC.cs" />
+    <Compile Include="TwitterSearchTableVC.designer.cs" />
     <Compile Include="TwitterFeedTableSource.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,12 +11,6 @@ namespace TwitterSearch.iOS
 		UIWindow window;
 		TwitterSearchTableVC twitterVC;
 
-		public override UIWindow Window
-		{
-			get;
-			set;
-		}
-
 		public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
 		{
 

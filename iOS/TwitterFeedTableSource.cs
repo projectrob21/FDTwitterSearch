@@ -31,8 +31,8 @@ namespace TwitterSearch.iOS
 			{ cell = new UITableViewCell(UITableViewCellStyle.Subtitle, CellIdentifier); }
 
 			var tweet = Tweets[indexPath.Row];
-			cell.TextLabel.Text = tweet.user;
-			cell.DetailTextLabel.Text = tweet.content;
+			cell.TextLabel.Text = tweet.name;
+			cell.DetailTextLabel.Text = tweet.text;
 
 			return cell;		
 		}

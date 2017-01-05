@@ -10,3 +10,9 @@
 /Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/TwitterSearch.iOS.exe
 /Users/robertdeans/Documents/developer/TwitterSearch/iOS/obj/iPhoneSimulator/Debug/TwitterSearch.iOS.exe
 /Users/robertdeans/Documents/developer/TwitterSearch/iOS/obj/iPhoneSimulator/Debug/TwitterSearch.iOS.exe.mdb
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/LinqToTwitter.xamarin.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/ModernHttpClient.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/System.Reactive.Linq.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/System.Reactive.Core.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug/System.Reactive.Interfaces.dll

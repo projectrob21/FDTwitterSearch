@@ -296,6 +296,18 @@
 	/Users/robertdeans/Documents/developer/TwitterSearch/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
 	/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/TwitterSearchLibrary.Shared.dll \
+	-r \
+	/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/LinqToTwitter.xamarin.dll \
+	-r \
+	/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Net.Http.Primitives.dll \
+	-r \
+	/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/ModernHttpClient.dll \
+	-r \
+	/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Reactive.Linq.dll \
+	-r \
+	/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Reactive.Core.dll \
+	-r \
+	/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Reactive.Interfaces.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/robertdeans/Documents/developer/TwitterSearch/iOS/bin/iPhoneSimulator/Debug//TwitterSearch.iOS.exe \

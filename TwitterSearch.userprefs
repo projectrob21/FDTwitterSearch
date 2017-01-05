@@ -1,30 +1,19 @@
 ﻿<Properties StartupConfiguration="{52EE7FF4-2F46-465B-9490-742C7A063B76}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TwitterSearchLibrary.Shared/Tweet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TwitterSearchLibrary.Shared/Views/TwitterViewPage.cs">
     <Files>
-      <File FileName="iOS/TwitterSearchTableVC.cs" Line="13" Column="3" />
+      <File FileName="iOS/TwitterSearchTableVC.cs" Line="16" Column="3" />
       <File FileName="iOS/MyPage.cs" Line="1" Column="1" />
       <File FileName="iOS/packages.config" Line="1" Column="1" />
-      <File FileName="iOS/TwitterFeedTableSource.cs" Line="1" Column="1" />
+      <File FileName="iOS/TwitterFeedTableSource.cs" Line="16" Column="45" />
       <File FileName="iOS/TwitterSearchTableVC.designer.cs" Line="13" Column="37" />
       <File FileName="TwitterSearchLibrary.Shared/DataStore.cs" Line="20" Column="4" />
       <File FileName="iOS/Main.cs" Line="18" Column="1" />
       <File FileName="iOS/AppDelegate.cs" Line="8" Column="11" />
-      <File FileName="TwitterSearchLibrary.Shared/Tweet.cs" Line="26" Column="1" />
+      <File FileName="TwitterSearchLibrary.Shared/TweetOriginal.cs" Line="6" Column="17" />
+      <File FileName="TwitterSearchLibrary.Shared/Models/Tweet.cs" Line="1" Column="1" />
+      <File FileName="TwitterSearchLibrary.Shared/ViewModels/TwitterViewModel.cs" Line="38" Column="52" />
+      <File FileName="TwitterSearchLibrary.Shared/Views/TwitterViewPage.cs" Line="1" Column="7" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="TwitterSearch" expanded="True">
-            <Node name="TwitterSearch.Droid" expanded="True" />
-            <Node name="TwitterSearch.iOS" expanded="True" />
-            <Node name="TwitterSearch.Shared" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Tweet.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

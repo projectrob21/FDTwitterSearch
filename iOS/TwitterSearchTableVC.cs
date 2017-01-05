@@ -22,11 +22,12 @@ namespace TwitterSearch.iOS
 			base.ViewDidLoad();
 
 
-			source = new TwitterFeedTableSource(Enumerable.Empty<Tweet>());
+			source = new TwitterFeedTableSource(Enumerable.Empty<TweetOriginal>());
 			Console.WriteLine("TwitterSearchTableVC loaded");
 			Console.WriteLine("source = {0}", source);
-
-			twitterTableView = new UITableView(Rectangle.Empty) { Source = source };
+			var repo = new TwitterSearch.Shared.TweetRepository();
+			Console.WriteLine("Repo tweets = {0}", repo._tweets);
+			//twitterTableView = new UITableView(Rectangle.Empty) { Source = source };
 
 				
 			//RefreshControl = new UIRefreshControl();

@@ -9,11 +9,11 @@ namespace TwitterSearch.iOS
 	public class TwitterFeedTableSource : UITableViewSource
 	{
 
-		public IList<Tweet> Tweets { get; set; }
+		public IList<TweetOriginal> Tweets { get; set; }
 
-		public TwitterFeedTableSource(IEnumerable<Tweet> tweets)
+		public TwitterFeedTableSource(IEnumerable<TweetOriginal> tweets)
 		{
-			Tweets = new List<Tweet>(tweets);
+			Tweets = new List<TweetOriginal>(tweets);
 		}
 
 		string CellIdentifier = "TableCell";

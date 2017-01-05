@@ -30,7 +30,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataStore.cs" />
-    <Compile Include="Tweet.cs" />
+    <Compile Include="TweetOriginal.cs" />
     <Compile Include="Views\TwitterViewPage.cs" />
     <Compile Include="ViewModels\TwitterViewModel.cs" />
     <Compile Include="Models\Tweet.cs" />

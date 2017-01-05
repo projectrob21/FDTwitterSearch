@@ -37,11 +37,8 @@ namespace XamarinForms.ViewModels
             {
                 CredentialStore = new InMemoryCredentialStore
                 {
-                    // Please use this link to create a new app in Twitter
-                    // https://apps.twitter.com/app/new
-                    // so you can get ConsumerKey and ConsumerSecret
-                    ConsumerKey = "******",
-                    ConsumerSecret = "*******",
+                    ConsumerKey = "mhMSvHsLgdmVe7UxVY3abssFw",
+                    ConsumerSecret = "o0cAYqy9JHyuwrOcrnUqlzUfwpF3NvN3PxvzrwHDE0vj39Ynxd",
                 },
             };
 
@@ -53,7 +50,7 @@ namespace XamarinForms.ViewModels
                 (from tweet 
                  in ctx.Status
                  where tweet.Type == StatusType.User 
-                       && tweet.ScreenName == "HoussemDellai"
+                       && tweet.ScreenName == "POTUS"
                        && tweet.Count == 30
                  select tweet)
                 .ToListAsync();

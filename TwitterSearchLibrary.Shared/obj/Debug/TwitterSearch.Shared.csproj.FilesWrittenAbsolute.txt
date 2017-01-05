@@ -4,3 +4,11 @@
 /Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/obj/Debug/TwitterSearchLibrary.Shared.dll
 /Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/obj/Debug/TwitterSearchLibrary.Shared.dll.mdb
 /Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/Newtonsoft.Json.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Net.Http.Extensions.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Net.Http.Primitives.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/ModernHttpClient.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Reactive.Interfaces.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Reactive.Core.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Reactive.Linq.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/System.Reactive.PlatformServices.dll
+/Users/robertdeans/Documents/developer/TwitterSearch/TwitterSearchLibrary.Shared/bin/Debug/LinqToTwitter.xamarin.dll

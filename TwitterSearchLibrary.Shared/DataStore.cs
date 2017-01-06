@@ -5,17 +5,23 @@
 //using Newtonsoft.Json;
 
 using System;
-
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using LinqToTwitter;
-using XamarinForms.Models;
+
+
+
+using System.Diagnostics;
+
+
 
 namespace TwitterSearch.Shared
 {
+
+	// ORIGINAL BASIC API CALL FORMAT
 
 	//public class TweetRepository : ITweetRepository
 	//{
@@ -34,11 +40,13 @@ namespace TwitterSearch.Shared
 	//{
 	//	Task<IEnumerable<TweetOriginal>> TopEntriesAsync();
 	//}
+
+
 	public class TweetRepository : INotifyPropertyChanged
 	{
 
-		public List<Tweet> _tweets;
-		public List<Tweet> Tweets
+		public List<TweetPlugin> _tweets;
+		public List<TweetPlugin> Tweets
 		{
 			get { return _tweets; }
 			set
@@ -53,11 +61,13 @@ namespace TwitterSearch.Shared
 
 		public TweetRepository()
 		{
-			InitTweetsAsync();
+			Debug.WriteLine("Tweet Repository is running");
+			 InitTweetsAsync();
 		}
 
 		public async Task InitTweetsAsync()
 		{
+			Debug.WriteLine("initTweetsAsync is running");
 
 			var auth = new ApplicationOnlyAuthorizer()
 			{
@@ -68,22 +78,28 @@ namespace TwitterSearch.Shared
 				},
 			};
 
+			Debug.WriteLine("Line 76");
 			await auth.AuthorizeAsync();
-
+			Debug.WriteLine("Line 78");
+			Debug.WriteLine("AUTH is : {$0}", auth.OAuth2InvalidateToken);
 			var ctx = new TwitterContext(auth);
+			Debug.WriteLine("CTX is : {$0}", ctx);
 
 			var tweets = await
 				(from tweet
 			 	in ctx.Status
 			 	where tweet.Type == StatusType.User
 				   && tweet.ScreenName == "POTUS"
-				   && tweet.Count == 30
+				   && tweet.Count == 3
 			 	select tweet)
 				.ToListAsync();
 
-			Tweets = (from tweet
+			Debug.WriteLine("TWWWEEETTS {$0}", tweets);
+
+			Tweets = 
+				(from tweet
 				  in tweets
-					  select new Tweet
+					  select new TweetPlugin
 					  {
 						  StatusID = tweet.StatusID,
 						  ScreenName = tweet.User.ScreenNameResponse,
@@ -91,7 +107,8 @@ namespace TwitterSearch.Shared
 						  ImageUrl = tweet.User.ProfileImageUrl,
 						  MediaUrl = tweet?.Entities?.MediaEntities?.FirstOrDefault()?.MediaUrl
 					  })
-			.ToList();
+				.ToList();
+
 
 			//Search searchResponse = await
 			//    (from search in ctx.Search
@@ -120,5 +137,6 @@ namespace TwitterSearch.Shared
 		}
 
 	}
+
 }
 

@@ -3,6 +3,21 @@ using System.Collections.Generic;
 
 namespace TwitterSearch.Shared
 {
+
+	public class TweetPlugin
+	{
+		public ulong StatusID { get; set; }
+
+		public string ScreenName { get; set; }
+
+		public string Text { get; set; }
+
+		public string ImageUrl { get; set; }
+
+		public string MediaUrl { get; set; }
+	}
+
+
 	public class TweetOriginal
 	{
 

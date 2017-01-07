@@ -25,8 +25,6 @@ namespace TwitterSearch.Shared
 		public string text { get; set; }
 		public string date { get; set; }
 
-		//public string user, content, date;
-
 		public TweetOriginal(string user, string content, string date)
 		{
 			this.name = user;

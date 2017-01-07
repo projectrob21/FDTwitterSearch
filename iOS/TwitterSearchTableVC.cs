@@ -12,7 +12,7 @@ namespace TwitterSearch.iOS
 	public partial class TwitterSearchTableVC : UIViewController
 	{
 
-		private TwitterFeedTableSource source;
+		//private TwitterFeedTableSource source;
 
 		TweetOriginal potus1 = new TweetOriginal("Potus", "I am going to miss this job", "Jan 1st 2017");
 		TweetOriginal potus2 = new TweetOriginal("Potus", "Vacation will be nice though!", "Jan 2nd 2017");
@@ -27,10 +27,11 @@ namespace TwitterSearch.iOS
 			//Console.WriteLine("source = {0}", source);
 			//var repo = new TwitterSearch.Shared.TweetRepository();
 			//Console.WriteLine("Repo tweets = {0}", repo._tweets);
-		
+
+
 			twitterTableView = new UITableView(View.Bounds);
 
-				
+
 			//RefreshControl = new UIRefreshControl();
 			// built-in refresh for when you drag down screen
 
@@ -65,5 +66,6 @@ namespace TwitterSearch.iOS
 		//	TableView.ReloadData();
 		//}
 
+	
 	}
 }
